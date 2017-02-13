@@ -9,7 +9,7 @@ namespace Chess1App
     [Fact]
     public void CanAttack_true()
     {
-      Chess testChess = new Chess(2, 4, 1, 4);
+      Chess testChess = new Chess(1, 2, 3, 4);
       Assert.Equal(true, testChess.CanAttack());
     }
   }

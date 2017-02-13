@@ -26,6 +26,9 @@ namespace Chess1.Objects
       } else if (_qycoord == _pycoord)
       {
         return true;
+      } else if ((Math.Abs(_qxcoord - _pxcoord)) == (Math.Abs(_qycoord - _pycoord)))
+      {
+        return true;
       }
       else
       {
